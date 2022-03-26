@@ -1,27 +1,75 @@
 
+
+
 /* banner section */
 
 /* banner tittle on picture */
-.container {
+.container_banner {
     position: relative;
-    text-align: center;
-    color: white;
-    font-size: 40px;
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
     padding-bottom: 20px;
-    -webkit-text-stroke: 1px black;
-    font-family: arial; color: white;
+    margin: 10px;
+   
   }
 .top-left {
     position: absolute;
     top: 20px;
-    left: 20px;
+    left:20px;
+    color: white;
+    font-size: 35px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* -webkit-text-stroke: 1px black; */
+    color: white;
+    /* font-weight: bold; */
   }
 
-#exterior_container{
-   background-color: #00324e;
-   padding: 0px;
+
+/* exterior info & images */
+
+.exteriorContainer{
+  /* border: 1px solid black; */
+  width:300px;
+  margin: 10px;
+  display: inline-block;
+/* change title for exterior design */
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.exteriorImg {
+  width: 300px;
+}
+
+
+
+.exteriorContainerPlus{
+  width:625px;
+  margin: 10px;
+  display: inline-block;
+/* change title for exterior design */
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.exteriorImgPlus {
+  width: 625px;
+}
+
+.exteriorDescription{
+  font-size: 20px;
+  margin: 15px;
+
+
+}
+
+
+/* #1 musscle car banner */
+.number1{
+  margin: 10px;
+  background-color: #00324e;
+  
 }
 
 
@@ -34,10 +82,9 @@
 
 
 
-
-
-
-/* Models & specs */
+/* *************************************** */
+/* ********** Models & Specs ************* */ 
+/* *************************************** */
 
 .wrapper{
     width: 100%;
@@ -49,6 +96,9 @@
     width:250px;
     margin: 20px;
     display: inline-block;
+}
+.mustangModels{
+  width: 250px;
 }
 
 .titleModel{
@@ -64,7 +114,6 @@
     padding: 10px;
     line-height: 1.5;
     list-style-type: none;
-
 }
 
 .priceModel{
@@ -72,13 +121,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.mustangModels{
-    width: 250px;
-}
+
+
+
+
+/* *************************************** */
+/* ***************  Footer *************** */ 
+/* *************************************** */
 
 
 footer{
-    width: 100%;
+    /* width: 100%; */
+    margin: 10px;
     height: 150px;
     background-color: #00324e;
 }
@@ -96,10 +150,11 @@ footer{
   background-color: #00324e;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
-  width: 100%;
+  /* width: 100%; */
   text-align: left;
   font: normal 16px sans-serif;
   padding: 45px 50px;
+
 }
 
 .footer-distributed .footer-left p {
@@ -163,7 +218,31 @@ footer{
 
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
 
-/* Media Queries */
+
+
+
+
+
+
+.number1Img{
+  width: 400px;
+}
+
+
+/* *************************************** */
+/* **********  Media Queries ************* */ 
+/* *************************************** */
+
+@media (max-width: 700px) {
+  .exteriorImgPlus{
+    width: 500px;
+  }
+  .exteriorContainerPlus {
+    width: 500px;
+  }
+}
+
+
 
 @media (max-width: 600px) {
   .footer-distributed .footer-left, .footer-distributed .footer-right {
@@ -171,12 +250,27 @@ footer{
   }
   .footer-distributed .footer-right {
     float: none;
-    margin: 0 auto 20px;
+    margin: 0 auto;
   }
   .footer-distributed .footer-left p.footer-links {
     line-height: 1.8;
   }
   footer{
       height: 200px;
+  }
+  .top-left { 
+    font-size: 20px; 
+    font-weight: lighter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke: 0;
+  }
+  .exteriorImgPlus{
+    width: 300px;
+  }
+  .exteriorContainerPlus {
+    width: 300px;
+  }
+  .number1Img{
+    width: 350px!important;
   }
 }
