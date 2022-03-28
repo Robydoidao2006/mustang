@@ -1,7 +1,7 @@
-
-
-
-/* banner section */
+/* *************************************** */
+/* ************ banner section *********** */ 
+/* *************************************** */
+html,body{height:100%;}
 
 /* banner tittle on picture */
 .container_banner {
@@ -36,7 +36,12 @@
   color:black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
+
+
+
 }
+
+
 .exteriorImg {
   width: 300px;
 }
@@ -46,11 +51,16 @@
 .exteriorContainerPlus{
   width:625px;
   margin: 10px;
+  /* border: 1px solid black; */
   display: inline-block;
 /* change title for exterior design */
   color:black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
+  /* height: 420px; */
+  /* overflow:auto; */
+
+
 }
 
 .exteriorImgPlus {
@@ -59,7 +69,7 @@
 
 .exteriorDescription{
   font-size: 20px;
-  margin: 15px;
+  /* margin: 15px; */
 
 
 }
@@ -70,6 +80,10 @@
   margin: 10px;
   background-color: #00324e;
   
+}
+
+.number1Img{
+  width: 400px;
 }
 
 
@@ -104,11 +118,11 @@
 .titleModel{
     color:#052943;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     padding: 10px;
 }
 .descriptionModel{
-    font-size: 13px;
+    font-size: 14px;
     color:#4999d3;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
@@ -220,13 +234,6 @@ footer{
 
 
 
-
-
-
-
-.number1Img{
-  width: 400px;
-}
 
 
 /* *************************************** */
